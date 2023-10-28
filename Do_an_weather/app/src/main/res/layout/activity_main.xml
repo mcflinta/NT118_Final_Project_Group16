@@ -13,7 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_alignParentTop="true">
-
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
         <RelativeLayout
             android:id="@+id/icon_air"
             android:layout_marginRight="10dp"
@@ -187,5 +192,7 @@
             android:textColor="#26225F"
             android:layout_centerInParent="true"
             />
+
     </RelativeLayout>
+
 </RelativeLayout>
