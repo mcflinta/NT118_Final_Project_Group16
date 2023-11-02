@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">UiOt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="refresh">refresh</string>
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1IjoicGF0dXMiLCJhIjoiY2w5NnBtNzBxMDEyYjNucGR5ZXZtcTg1MSJ9.m3W_7Ta9A_NGKJw0fPW1Wg</string>
+    <string name="view_chart">View Chart</string>
+    <string name="more_details">More Details</string>
+    <string name="home">Home</string>
+    <string name="devices">Devices</string>
+    <string name="maps">Maps</string>
+    <string name="admin">Admin</string>
+    <string name="device_icon">Device Icon</string>
+    <string name="send_icon">Send Icon</string>
+    <string name="cancel_icon">Cancel Icon</string>
+    <string name="community_icon">Community Icon</string>
+    <string name="expand_icon">Expand Icon</string>
+    <string name="add_icon">Add Icon</string>
+    <string name="sort_by">Sort by</string>
+    <string name="type">Type</string>
+    <string name="your_devices">Your devices</string>
+    <string name="custom">Custom</string>
+    <string name="celsius">°C</string>
+    <string name="degrees">°</string>
+    <string name="string_null">null</string>
+    <string name="binh_minh">Bình minh</string>
+    <string name="_06_09">06:09</string>
+    <string name="sunrise">sunrise</string>
+    <string name="hoang_hon">Hoàng hôn</string>
+    <string name="_17_39">17:39</string>
+    <string name="sunset">Sunset</string>
+    <string name="user_image">User Image</string>
+    <string name="hi">Hi,</string>
+    <string name="weather_image">Weather Image</string>
+    <string name="sample_mostly_sunny">Mostly sunny</string>
+    <string name="sample_c">- - °C</string>
+    <string name="sample_degrees">- - ° / - - °</string>
+    <string name="sample_percent">%</string>
+    <string name="uv_index">UV Index</string>
+    <string name="humidity">Humidity</string>
+    <string name="_0">0</string>
+    <string name="low">Thấp</string>
+</resources>
