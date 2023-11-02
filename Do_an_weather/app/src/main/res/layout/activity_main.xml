@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context="com.myapp.weather_app.MainActivity"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp">
     <RelativeLayout
@@ -13,12 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_alignParentTop="true">
-        <com.google.android.gms.common.SignInButton
-            android:id="@+id/google_sign_in_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:visibility="visible" />
+
         <RelativeLayout
             android:id="@+id/icon_air"
             android:layout_marginRight="10dp"
@@ -157,15 +152,15 @@
             android:layout_centerVertical="true"
             android:layout_marginTop="24dp"
             />
+
         <TextView
             android:id="@+id/TVSignUpGoogle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up with Google"
-            android:textSize="17sp"
-            android:textColor="#26225F"
             android:layout_centerInParent="true"
-        />
+            android:text="Sign Up with Google"
+            android:textColor="#26225F"
+            android:textSize="17sp" />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/RLSignUpFacebook"

@@ -1,8 +1,10 @@
-package com.example.weather_app;
+package com.myapp.weather_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.myapp.weather_app.R;
 
 public class DashboardActivity extends AppCompatActivity {
 
