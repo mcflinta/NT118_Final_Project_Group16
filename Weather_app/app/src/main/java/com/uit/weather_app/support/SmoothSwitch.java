@@ -322,8 +322,9 @@ public class SmoothSwitch extends CompoundButton{
      * Sets the switch text color, size, style, hint color, and highlight color
      * from the specified TextAppearance resource.
      */
+    @SuppressLint("ResourceType")
     public void setSwitchTextAppearance(Context context, int resid) {
-        TypedArray appearance = context.obtainStyledAttributes(resid, TEXT_APPEARANCE_ATTRS);
+        @SuppressLint("ResourceType") TypedArray appearance = context.obtainStyledAttributes(resid, TEXT_APPEARANCE_ATTRS);
 
         ColorStateList colors;
         int ts;

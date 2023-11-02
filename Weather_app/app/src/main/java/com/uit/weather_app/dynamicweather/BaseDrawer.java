@@ -2,6 +2,7 @@ package com.uit.weather_app.dynamicweather;
 import java.util.Random;
 
 import android.content.Context;
+
 import android.graphics.Canvas;
 import android.graphics.drawable.GradientDrawable;
 
